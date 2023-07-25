@@ -1,2 +1,2 @@
 # Project-
-Project 1 
+Use data.cityofchicago.org compare taxi services to ride sharing apps and other forms of transportation. Compare different regions of Chicago to see if different areas use different forms of transport. Possibly compare other demographic data.
