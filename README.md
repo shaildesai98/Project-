@@ -23,7 +23,7 @@ Our business has been struggling with maintaining business due to the explosion 
 The City of Chicago tracks Taxi and Transportation Network Providers  (“ride share”) data. Each row in the datasets represents one individual trip, containing info like timestamp, trip miles, fair, tips, etc.
 The data is uploaded to the Chicago Data Portal, which is what was used for API call. 
 Additionally, we pulled a “Chicago” data set from GeoDataSets to create a map of Chicago. GeoDataSets was downloaded into the conda environment and included as dependency in the code.
-We encountered an issue with calling the data and were able to resolve it by downloading the data as a CSV file and taking randomized samples.
+We encountered an issue with calling the data and were able to resolve it by downloading the data as a CSV file and taking randomized samples. We ended up downloading the 18 GB CSV file for the TNP data and taking a random sample of 350,000 rows out of the 69 million. To maintain the correct size relationship we also took a random sample of 32,000 rows of the taxi data.
 
 
 
